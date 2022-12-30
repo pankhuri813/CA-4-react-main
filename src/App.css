@@ -1,0 +1,99 @@
+
+.App {
+  text-align: center;
+}
+
+
+
+.question-card {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #97DECE;
+  padding: 16px;
+  border-radius: 16px;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 8px;
+  background-color: #CBEDD5;
+  padding: 16px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.question-text {
+  color: darkblue;
+  font-size: 24px;
+}
+
+.flex{
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-evenly;
+}
+
+.toggle-button{
+  margin-left: 400px;
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  padding: 0px;
+  border-radius: 20px;
+  margin-top: 20px;
+  
+}
+
+.header{
+  margin-left: 700px;
+}
+
+.final-results {
+  margin: 0 auto;
+  width: 50%; 
+  margin-top: 64px;
+  background-color: #97DECE;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 60px 90px -24px,
+    rgba(0, 0, 0, 0.3) 0px 32px 56px -32px;
+}
+
+button {
+  background-color: #439A97; 
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 30px 0px 30px;
+  border-radius: 24px;
+}
+
+button:hover{
+  background-color: white;
+  color: #439A97;
+  border: 1px solid #439A97;
+}
+
+@media only screen and (max-width: 600px){
+  .toggle-button{
+    margin-left: 20px;
+  }
+  ul{
+    margin: 0px 0px 0px -40px;
+  }
+  button{
+    margin: 35px 10px 0px 0px;
+  }
+}
